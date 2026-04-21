@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+  height: calc(100% - 24px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 0.5rem;
+  width: 20em;
+  height: 36em;
+  color: hsl(0, 0%, 100%);
+}
+
+.avartar {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avartar-image {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+}
+
+.name-section {
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.region-section {
+  margin-top: 0.5em;
+  color: hsl(75, 94%, 57%);
+  font-weight: semibold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6em;
+}
+.quote-section {
+  margin-top: 3em;
+  font-size: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 84%;
+  margin: 10px auto 0;
+  padding-inline-start: 0;
+}
+
+.profile-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 4px;
+  font-weight: semibold;
+}
