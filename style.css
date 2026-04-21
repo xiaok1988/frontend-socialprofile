@@ -53,14 +53,14 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
-.avartar {
+.avatar {
   margin-top: 3em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.avartar-image {
+.avatar-image {
   width: 5em;
   height: 5em;
   border-radius: 50%;
@@ -104,21 +104,30 @@ body {
 }
 
 .profile-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   margin-top: 1em;
-  padding-top: 10px;
-  padding-bottom: 10px;
   background-color: hsl(0, 0%, 20%);
   border-radius: 4px;
   font-weight: semibold;
 }
 
-.profile-item:focus,
-.profile-item:hover {
+.profile-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.profile-item a:focus,
+.profile-item a:hover {
   cursor: pointer;
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 12%);
+  border-radius: 4px;
 }
