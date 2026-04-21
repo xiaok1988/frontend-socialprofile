@@ -115,3 +115,10 @@ body {
   border-radius: 4px;
   font-weight: semibold;
 }
+
+.profile-item:focus,
+.profile-item:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
