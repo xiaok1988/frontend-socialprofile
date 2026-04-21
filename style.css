@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "Inter";
-  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+  src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf");
 }
 
 @font-face {
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("./assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+  src: url("./assets/fonts/static/Inter-600.ttf") format("truetype");
   font-weight: 600;
 }
 
@@ -78,7 +78,7 @@ body {
 .region-section {
   margin-top: 0.5em;
   color: hsl(75, 94%, 57%);
-  font-weight: semibold;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,7 +108,7 @@ body {
   margin-top: 1em;
   background-color: hsl(0, 0%, 20%);
   border-radius: 4px;
-  font-weight: semibold;
+  font-weight: 600;
 }
 
 .profile-item a {
@@ -130,4 +130,5 @@ body {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 12%);
   border-radius: 4px;
+  outline: 1px solid hsl(75, 94%, 57%);
 }
